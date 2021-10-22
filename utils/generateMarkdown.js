@@ -12,7 +12,7 @@ function renderLicenseBadge(license) {
   } else if (license === "Boost") {
     return `[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)`
   } else if (license === "None") {
-    return `"No License"`
+    return ``
   }
 };
 
@@ -30,21 +30,28 @@ function renderLicenseLink(license) {
   } else if (license === "Boost") {
     return `(https://www.boost.org/LICENSE_1_0.txt)`
   } else if (license === "None") {
-    return ``
+    return `""`
   }
 };
 
 // Function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  return `${renderLicenseBadge(license)}, ${renderLicenseLink(license)}`
+  if (license === "None") {
+    return ``
+  } else {
+  return `${license}, ${renderLicenseLink(license)}`
+};
 };
 
 // Function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+${renderLicenseBadge(data.license)}
+
 ## Description 
 ${data.description}
+
 ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
@@ -65,9 +72,11 @@ ${renderLicenseSection(data.license)}
 ${data.tests}
 
 ## Questions
-${data.questions}
-https://github.com/${data.username}
-${data.email}
+${data.questions}     
+
+https://github.com/${data.username}    
+
+${data.email}  
 `;
 }
 
