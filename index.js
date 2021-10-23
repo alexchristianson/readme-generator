@@ -65,7 +65,10 @@ const questions = [
 ];
 
 function init() {
-    inquirer.prompt(questions).then(data => fs.writeFile("generatedREADME.md", generateMarkdown(data), err => console.log(err))); 
+    inquirer.prompt(questions).then(data => {
+        fs.writeFile("./dist/README.md", generateMarkdown(data), err => console.log(err));
+        console.log("Your README was created!")
+    }); 
 };
 
 // Function call to initialize app
