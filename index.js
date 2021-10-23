@@ -39,6 +39,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'contributing',
+        message: "What are the guidelines for contributing?"
+    },
+    {
+        type: 'input',
         name: 'tests',
         message: 'Give instructions on how to run tests if any?'
     },
