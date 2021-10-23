@@ -1,8 +1,8 @@
-# run buddy
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# aioejf;ajf
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
 ## Description 
-running website
+;akhf;oiaj;goa
 
 ## Table of Contents
 * [Installation](#installation)
@@ -13,23 +13,23 @@ running website
 * [Questions](#questions)
 
 ## Installation
-aiojoijaef
+;oaierjhgo;iaerjg
 
 ## Usage
-ih;oihasdgohi;afwe;ioh
+;ioarhg;oiajerg
 
 ## License
-Apache, [(https://opensource.org/licenses/Apache-2.0)
+Mozilla, (https://opensource.org/licenses/MPL-2.0)
 
 ## Contributing
-aiejf;oijagij
+a;oiejf;oiajrg
 
 ## Tests
-;oiagoiawejg;oijaewg
+;oairjhg;oaiejrg
 
 ## Questions
-aiehf;opiajhgoiaehjrg     
+;oaehrg;oiaehrg     
 
-https://github.com/alexchristianson    
+https://github.com/;oaierhg;oiaejrg    
 
-alex@email.com  
+;aoeirhjg;oiaerjg  
