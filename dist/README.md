@@ -1,8 +1,8 @@
-# aioejf;ajf
-[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+# README Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description 
-;akhf;oiaj;goa
+This is a Node.js application designed so yo can quickly and easily generate a README file using the command line.
 
 ## Table of Contents
 * [Installation](#installation)
@@ -13,23 +13,23 @@
 * [Questions](#questions)
 
 ## Installation
-;oaierjhgo;iaerjg
+npm init
 
 ## Usage
-;ioarhg;oiajerg
+run node index.js
 
 ## License
-Mozilla, (https://opensource.org/licenses/MPL-2.0)
+MIT, (https://opensource.org/licenses/MIT)
 
 ## Contributing
-a;oiejf;oiajrg
+N/A
 
 ## Tests
-;oairjhg;oaiejrg
+N/A
 
 ## Questions
-;oaehrg;oiaehrg     
+Reach out via email or Github     
 
-https://github.com/;oaierhg;oiaejrg    
+https://github.com/alexchristianson    
 
-;aoeirhjg;oiaerjg  
+alex.christianson.05@gmail.com  
