@@ -4,7 +4,7 @@
 ## Description 
 This is a Node.js application designed so you can quickly and easily generate a README file by using a command-line application to generate one. This allows you, the project creator, to devote more time working on the project.
 
-![screenshot of application?]
+🔗[Link to Demo Video](https://github.com/alexchristianson/readme-generator/blob/main/assets/demo/readme-generator-demo.webm)
 
 ## Table of Contents
 * [Installation](#installation)
